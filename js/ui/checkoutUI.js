@@ -33,7 +33,7 @@ export class CheckoutUI {
       checkoutService.saveShippingInfo(shippingInfo);
       checkoutService.setShippingMethod(shippingMethod);
 
-      window.location.href = "/thecocktailstore/payment.html";
+      window.location.href ="/thecocktailstore/payment.html";
     });
   }
 
